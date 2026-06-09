@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AI Podcast",
-    "slug": "AI Podcast",
+    "slug": "AI-Podcast",
     "version": "1.0.0",
     "web": {
       "favicon": "./assets/favicon.png"

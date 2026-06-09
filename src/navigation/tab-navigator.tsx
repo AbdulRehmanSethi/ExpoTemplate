@@ -1,5 +1,5 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { StackScreenProps } from '@react-navigation/stack';
+import { NavigationProp } from '@react-navigation/native';
 
 import { RootStackParamList } from '.';
 import { HeaderButton } from '../components/HeaderButton';
@@ -9,7 +9,7 @@ import Two from '../screens/two';
 
 const Tab = createBottomTabNavigator();
 
-type Props = StackScreenProps<RootStackParamList, 'TabNavigator'>;
+type Props = { navigation: NavigationProp<RootStackParamList> };
 
 export default function TabLayout({ navigation }: Props) {
   return (
